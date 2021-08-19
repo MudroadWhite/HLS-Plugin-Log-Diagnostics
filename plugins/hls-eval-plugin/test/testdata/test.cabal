@@ -1,0 +1,63 @@
+name:                test
+version:             0.1.0.0
+-- synopsis:
+-- description:
+license:             BSD3
+author:              Author name here
+maintainer:          example@example.com
+copyright:           2017 Author name here
+category:            Web
+build-type:          Simple
+cabal-version:       >=1.10
+
+library
+  exposed-modules:
+      T1
+      T2
+      T3
+      T4
+      T5
+      T6
+      T7
+      T8
+      T9
+      T10
+      T11
+      T12
+      T13
+      T14
+      T15
+      T16
+      T17
+      T18
+      T19
+      T20
+      T21
+      T22
+      T23
+      T24
+      T25
+      T26
+      T27
+      TEndingMulti
+      TMulti
+      TPlainComment
+      THaddock
+      TCompare
+      TLocalImport
+      TLocalImportInTest
+      TFlags
+      TLanguageOptionsTupleSections
+      TIO
+      TProperty
+      TPrelude
+      TCPP
+      TLHS
+      TSetup
+      Util
+      TNested
+
+  build-depends:       base >= 4.7 && < 5, QuickCheck
+  default-language:    Haskell2010
+  ghc-options:         -Wall -fwarn-unused-imports
+

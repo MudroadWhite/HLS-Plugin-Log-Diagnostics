@@ -1,0 +1,11 @@
+cradle:
+  direct:
+    arguments:
+      - "CodeActionImport"
+      - "CodeActionOnly"
+      - "CodeActionRename"
+      - "Highlight"
+      - "Symbols"
+      - "TopLevelSignature"
+      - "TypedHoles"
+      - "TypedHoles2"
